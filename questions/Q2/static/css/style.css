@@ -22,3 +22,11 @@ body {
 main {
 	flex: 1 0 auto;
 }
+
+#author-portrait { 
+	max-width: 70px;
+ }
+
+#author-info { 
+	margin-left: 10px;
+}
