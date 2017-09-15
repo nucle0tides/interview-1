@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block content %}
+	<div class="row">
+	    <div class="card horizontal">
+	      <div class="card-image">
+	        <img src=''>
+	      </div>
+	      <div class="card-stacked">
+	        <div class="card-content">
+	          {{ response['comment'] }}
+	          <br>
+	          {{ response['author_name'] }}
+	          <br>
+	          {{ response['author_portrait'] }}
+	        </div>
+	        <div class="card-action">
+	          <a href="#">This is a link</a>
+	        </div>
+	      </div>
+	    </div>
+	</div>
+{% endblock %}

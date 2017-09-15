@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-  <title>MySidewalk Engagement</title>
+  <title>MySidewalk</title>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -13,22 +13,12 @@
 </head>
 <body>
   <nav class="grey darken-4" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">MySidewalk Engagement</a></div>
+    <div class="nav-wrapper container"><a id="logo-container" href="{{ url_for('index') }}" class="brand-logo">MySidewalk Engagement</a></div>
   </nav>
 <main>
   <div class="container">
       {% block content %}
       {% endblock %}
-  </div>
-  <div class="modal-container">
-    <div id="comment-modal" class="modal modal-fixed-footer">
-      <div class="modal-content">
-        
-      </div>
-      <div class="modal-footer">
-        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Agree</a>
-      </div>
-    </div>
   </div>
 </main>
 
